@@ -1,14 +1,13 @@
-> ### RenWorld Bank Frontend
+> ### Tudu Frontend
 
-This app is a bank for users to create transactions, send and receive money. You can view a demo here [Demo](https://renworld-bank.herokuapp.com/)
+This app is a todo application. You can view a demo here [Demo](https://tudu-app-frontend.herokuapp.com/)
 
 ## Features
 
--   Create an account.
--   Close/Open an account.
--   Export transactions to Excel or PDF.
--   Print transactions.
--   Transfer/Receive funds from other accounts.
+-   Create a todo.
+-   Edit a todo.
+-   Complete a todo.
+-   Delete a todo.
 
 # Getting started
 
@@ -16,15 +15,15 @@ This app is a bank for users to create transactions, send and receive money. You
 
 Clone the repository
 
-    git clone https://github.com/kingeke/renworld-bank-frontend
+    git clone https://github.com/kingeke/tudu-frontend
 
-Clone the backend repository and read the documentation there [backend](https://github.com/kingeke/renworld-bank-backend)
+Clone the backend repository and read the documentation there [backend](https://github.com/kingeke/tudu-backend)
 
-    git clone https://github.com/kingeke/renworld-bank-backend
+    git clone https://github.com/kingeke/tudu-backend
 
 Switch to the repo folder
 
-    cd renworld-bank-frontend
+    cd tudu-frontend
 
 Install all the packages using npm
 
@@ -33,11 +32,3 @@ Install all the packages using npm
 Startup the server
 
     npm start
-
-# Testing
-
-Jest is the test framework used for this platform.
-
-To run tests use
-
-    npm run test
